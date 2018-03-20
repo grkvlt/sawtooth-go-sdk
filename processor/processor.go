@@ -24,11 +24,11 @@ import (
 	"os"
 	"os/signal"
 	"runtime"
-	"github.com/rberg2/sawtooth-go-sdk/logging"
-	"github.com/rberg2/sawtooth-go-sdk/messaging"
-	"github.com/rberg2/sawtooth-go-sdk/protobuf/network_pb2"
-	"github.com/rberg2/sawtooth-go-sdk/protobuf/processor_pb2"
-	"github.com/rberg2/sawtooth-go-sdk/protobuf/validator_pb2"
+	"github.com/grkvlt/sawtooth-go-sdk/logging"
+	"github.com/grkvlt/sawtooth-go-sdk/messaging"
+	"github.com/grkvlt/sawtooth-go-sdk/protobuf/network_pb2"
+	"github.com/grkvlt/sawtooth-go-sdk/protobuf/processor_pb2"
+	"github.com/grkvlt/sawtooth-go-sdk/protobuf/validator_pb2"
 )
 
 var logger *logging.Logger = logging.Get()

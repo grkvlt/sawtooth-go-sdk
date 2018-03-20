@@ -20,11 +20,11 @@ package processor
 import (
 	"fmt"
 	"github.com/golang/protobuf/proto"
-	"github.com/rberg2/sawtooth-go-sdk/messaging"
-	"github.com/rberg2/sawtooth-go-sdk/protobuf/events_pb2"
-	"github.com/rberg2/sawtooth-go-sdk/protobuf/state_context_pb2"
-	"github.com/rberg2/sawtooth-go-sdk/protobuf/client_state_pb2"
-	"github.com/rberg2/sawtooth-go-sdk/protobuf/validator_pb2"
+	"github.com/grkvlt/sawtooth-go-sdk/messaging"
+	"github.com/grkvlt/sawtooth-go-sdk/protobuf/events_pb2"
+	"github.com/grkvlt/sawtooth-go-sdk/protobuf/state_context_pb2"
+	"github.com/grkvlt/sawtooth-go-sdk/protobuf/client_state_pb2"
+	"github.com/grkvlt/sawtooth-go-sdk/protobuf/validator_pb2"
 )
 
 // Context provides an abstract interface for getting and setting validator
